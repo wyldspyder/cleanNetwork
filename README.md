@@ -1,23 +1,30 @@
 # cleanNetwork
 Bash Script utilisé pour nettoyer les fichiers de configuration de réseau sans-fil de Mac OS X.
-le Script doit être éxécuter en mode superadmin (sudo)
+Ce Script doit être éxécuter en mode superadmin (sudo).
+
 Un mode verbose existe (-v)
 
+## Exécution du script
 
-l'ordre d'exécution :
+1. Désactive le Wi-Fi si il n'est pas déjà désactivé
+2. Créé un dossier caché de backup dans le dossier original si il n'est pas déjà créé
+3. déplace les fichier si il existe dans le dossier de backup
+4. démarre le script de redémarrage
 
-1. désactivation du Wi-Fi,
-2. dépacement de fichiers situé dans le dossier suivant dans un dossier backup
-   
-   path des fichiers : /Library/Preferences/SystemConfiguration/  
 
-   Fichiers:
 
-	com.apple.airport.preferences.plist
-	com.apple.airport.preferences.plist-new
-	NetworkInterfaces.plist
-	preferences.plist
-	com.apple.wifi.message-tracer.plist
+## Annexe
+
+path des fichiers 
+/Library/Preferences/SystemConfiguration/  
+
+Fichiers
+
+com.apple.airport.preferences.plist
+com.apple.airport.preferences.plist-new
+NetworkInterfaces.plist
+preferences.plist
+com.apple.wifi.message-tracer.plist
 
 
 3. déclenche un script de redémarage
