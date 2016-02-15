@@ -1,8 +1,17 @@
 # cleanNetwork
 Bash Script utilisé pour nettoyer les fichiers de configuration de réseau sans-fil de Mac OS X.
+
 Ce Script doit être éxécuter en mode superadmin (sudo).
 
-Un mode verbose existe (-v)
+Un mode verbose existe (-v).
+
+Après le redémarrage de l'ordinateur, il vous faudra renommer votre ordinateur. Pour effectuer la tâche allé dans:
+
+1. préférence système -> partage
+2. cliquer sur modifier
+3. renomer à votre convenance (si vous ne savez pas quoi utilisé, prenez votre nom de courriel mirego)
+ 
+Il se peut quel'ordinateur ne se reconnecte pas automatiquement au réseau sans-fil. Dans ce cas, cliquer sur votre icône réseau et choisisser mirego-ap.
 
 ## Exécution du script
 
@@ -16,15 +25,12 @@ Un mode verbose existe (-v)
 ## Annexe
 
 path des fichiers 
-/Library/Preferences/SystemConfiguration/  
+- /Library/Preferences/SystemConfiguration/  
 
 Fichiers
+- com.apple.airport.preferences.plist
+- com.apple.airport.preferences.plist-new
+- NetworkInterfaces.plist
+- preferences.plist
+- com.apple.wifi.message-tracer.plist
 
-com.apple.airport.preferences.plist
-com.apple.airport.preferences.plist-new
-NetworkInterfaces.plist
-preferences.plist
-com.apple.wifi.message-tracer.plist
-
-
-3. déclenche un script de redémarage
