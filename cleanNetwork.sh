@@ -94,7 +94,7 @@ do
 	else
 		if  $mVerbose  
 		then
-				echo -e "$ccRed NON EXISTANT! $rep${fichiers[$i]}$ccNone"
+			echo -e "$ccRed NON EXISTANT! $rep${fichiers[$i]}$ccNone"
 		fi
 	fi
 done
