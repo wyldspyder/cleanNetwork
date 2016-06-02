@@ -11,7 +11,7 @@ Après le redémarrage de l'ordinateur, il vous faudra renommer votre ordinateur
 2. cliquer sur modifier
 3. renomer à votre convenance (si vous ne savez pas quoi utilisé, prenez votre nom de courriel mirego)
  
-Il se peut quel'ordinateur ne se reconnecte pas automatiquement au réseau sans-fil. Dans ce cas, cliquer sur votre icône réseau et choisisser mirego-ap.
+Il se peut quel'ordinateur ne se reconnecte pas automatiquement au réseau sans-fil. Dans ce cas, cliquer sur votre icône réseau et choisisser le réseau préféré.
 
 ## Exécution du script
 
